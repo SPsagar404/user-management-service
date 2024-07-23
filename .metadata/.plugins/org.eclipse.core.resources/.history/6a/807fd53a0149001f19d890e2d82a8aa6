@@ -1,9 +1,0 @@
-package com.user.app.controller;
-
-import com.user.app.service.IUserService;
-
-public class UserRestController {
-
-	private IUserService service;
-	
-}

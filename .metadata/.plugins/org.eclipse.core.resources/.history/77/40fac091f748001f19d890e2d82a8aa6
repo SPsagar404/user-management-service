@@ -1,9 +1,0 @@
-package com.user.app.repository;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.user.app.model.User;
-
-public interface IUserRepository extends JpaRepository<User, Long>{
-
-}

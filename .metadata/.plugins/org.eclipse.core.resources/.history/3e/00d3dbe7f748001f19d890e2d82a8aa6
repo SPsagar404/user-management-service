@@ -1,5 +1,0 @@
-package com.user.app.service;
-
-public interface IUserService {
-
-}
