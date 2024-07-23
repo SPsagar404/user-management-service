@@ -1,0 +1,14 @@
+package com.user.app.exception;
+
+
+public class UserNotFoundException extends RuntimeException{
+	
+	public UserNotFoundException() {
+		
+	}
+	
+	public UserNotFoundException(String username) {
+		super("User not exists with username: "+username);
+	}
+
+}

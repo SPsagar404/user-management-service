@@ -1,0 +1,32 @@
+package com.user.app.service;
+
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+
+import com.user.app.model.User;
+import com.user.app.repository.IUserRepository;
+
+public class UserServiceImpl implements IUserService,UserDetailsService {
+	
+	private IUserRepository repository;
+
+	
+
+	@Override
+	public User findUserByUserName(String username) throws Exception {
+		User existingUser = repository.findByUsername(username);
+		if(existingUser == null) {
+			throw new Exception("Invalid Username");
+		}
+		return null;
+	}
+	
+	
+	@Override
+	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+		
+		return null;
+	}
+
+}

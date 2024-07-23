@@ -1,0 +1,10 @@
+package com.user.app.service;
+
+import com.user.app.exception.UserNotFoundException;
+import com.user.app.model.User;
+
+public interface IUserService {
+	
+	public User findUserByUserName(String username) throws UserNotFoundException;
+
+}

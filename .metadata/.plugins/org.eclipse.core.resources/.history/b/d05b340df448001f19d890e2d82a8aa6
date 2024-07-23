@@ -1,0 +1,5 @@
+package com.user.app.config.service;
+
+public class SecurityConfig extends WebSecurity{
+
+}

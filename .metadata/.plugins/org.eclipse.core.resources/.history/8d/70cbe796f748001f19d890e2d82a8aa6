@@ -1,0 +1,19 @@
+package com.user.app.service;
+
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+
+import com.user.app.repository.IUserRepository;
+
+public class UserServiceImpl implements IUserService,UserDetailsService {
+	
+	private IUserRepository repository;
+
+	@Override
+	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
