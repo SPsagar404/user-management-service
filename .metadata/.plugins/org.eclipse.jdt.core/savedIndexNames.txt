@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+F:\Practicals\applications\user-management-app\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-2453559311.index
-3823972201.index
