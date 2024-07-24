@@ -36,8 +36,6 @@ This is a Spring Boot application for user access management. It includes role-b
     spring.datasource.password=password
     spring.jpa.hibernate.ddl-auto=update
     spring.jpa.show-sql=true
-    spring.security.user.name=admin
-    spring.security.user.password=adminpassword
     ```
 
 ### Initial Data
