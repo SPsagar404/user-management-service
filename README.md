@@ -9,7 +9,6 @@ This is a Spring Boot application for user access management. It includes role-b
 - Hibernate
 - MySQL
 - Maven
-- Mockito (for testing)
 - Postman (for API testing)
 
 ## Prerequisites
