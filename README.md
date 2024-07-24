@@ -14,7 +14,7 @@ This is a Spring Boot application for user access management. It includes role-b
 
 ## Prerequisites
 
-- Java 11 or higher
+- Java 8 or higher
 - Maven
 - MySQL
 
